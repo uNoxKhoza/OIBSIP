@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: blue;
+}
+
+.converter-container {
+    text-align: center;
+    text-decoration: double;
+    background-color: lightskyblue;
+}
+
+label,
+input,
+select,
+button {
+    margin: 10px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
